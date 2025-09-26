@@ -7,9 +7,9 @@ Seungeui Song, Hai Nguyen, Justin Chiu, Katie Sharp, Harinderjit Malhi, Maia Bur
 ![Alt text](images/web_app.png)
 </p>
 
-## 🚀 Live Demo
+## Live Demo
 **The application is deployed and available at:**  
-👉 **[https://ai-search-algorithms-a0x5.onrender.com/](https://ai-search-algorithms-a0x5.onrender.com/)**
+ **[https://ai-search-algorithms-a0x5.onrender.com/](https://ai-search-algorithms-a0x5.onrender.com/)**
 
 **No installation required!** Simply visit the link above to start using the Maze Solver AI web application.
 

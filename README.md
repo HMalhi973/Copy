@@ -7,6 +7,20 @@ Seungeui Song, Hai Nguyen, Justin Chiu, Katie Sharp, Harinderjit Malhi, Maia Bur
 ![Alt text](images/web_app.png)
 </p>
 
+## 🚀 Live Demo
+**The application is deployed and available at:**  
+👉 **[https://ai-search-algorithms-a0x5.onrender.com/](https://ai-search-algorithms-a0x5.onrender.com/)**
+
+**No installation required!** Simply visit the link above to start using the Maze Solver AI web application.
+
+## 🎯 Features
+- **Interactive Maze Generation**: Configurable maze width, height, and simulation settings
+- **Multiple AI Algorithms**: A*, Dijkstra's, and Beam Search with visual comparisons
+- **Real-time Visualization**: Watch algorithms solve mazes in parallel
+- **Performance Metrics**: Compare time efficiency and step counts
+- **Beam Width Control**: Adjust beam search parameters in real-time
+
+
 ## 1 Introduction
 In the rapidly evolving field of artificial intelligence (AI), its ability to navigate complex environments is a critical skill in applications such as autonomous vehicles and robotics. This
 project sought to advance the understanding and abilities of AI in solving complex mazes
@@ -278,17 +292,30 @@ techniques to improve heuristic evaluation in A*.
 | Harinderjit Malhi| Implemented the beam search algorithm using open and closed lists to track visited and frontier nodes. Used G and F costs for determining which nodes to keep.  |
 | Maia Burton      | Implemented Dijkstra’s algorithm, optimized performance with a priority queue. Drafted project check-in and final reports.  |
 
-# Running the Project Setps
+## 💻 Local Development (Optional)
+If you want to run the project locally for development:
 
-## Setting up Flask Server
+### Prerequisites
+- Python 3.9+
+- pip package manager
+
+### Setting up Flask Server (Windows)
 1. Create venv in backend using `python -m venv .\venv`
 2. Change directory to venv/Scripts using `cd .\venv\Scripts`
 3. Activate the venv using `.\activate`
 4. Change directory to backend using `cd ..\..`
 5. Install dependencies using `pip install -r requirements.txt`
 
-## Starting Flask Server
+### Starting Flask Server (Windows)
 1. Change directory to venv/Scripts using `cd .\venv\Scripts`
 2. Activate the venv using `.\activate`
 3. Change directory to backend using `cd ..\..`
 4. Start Flask server using `python run.py`
+
+### macOS/Linux Setup
+```bash
+cd backend
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python run.py

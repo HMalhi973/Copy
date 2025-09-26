@@ -1,4 +1,6 @@
-const serverUrl = 'http://localhost:5001';  // Change 5000 to 5001
+const serverUrl = window.location.hostname === 'localhost' 
+    ? 'http://localhost:5001' 
+    : '';  // Empty string for production - will use relative paths
 
 document.addEventListener('DOMContentLoaded', function() {
     document.getElementById("fetchButton").disabled = false;
